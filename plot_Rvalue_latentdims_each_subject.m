@@ -14,7 +14,7 @@ mean_latentdim_corrs = zeros(sub_num,latentdim_num);
 
 for subNo = 1:32
     for latent_dim=1:latentdim_num
-        latdim_corr_chs = squeeze(corr_chs(latent_dim,subNo,:)); %»ñÈ¡µ½¸Ãsub¸ÃlatdimÏÂ¸÷¸öchannelµÄÖØ¹¹±íÏÖ
+        latdim_corr_chs = squeeze(corr_chs(latent_dim,subNo,:)); %è·å–åˆ°è¯¥subè¯¥latdimä¸‹å„ä¸ªchannelçš„é‡æ„è¡¨ç°
         mean_latentdim_corrs(subNo,latent_dim) = mean(latdim_corr_chs);
     end
 end
@@ -28,7 +28,7 @@ for subNo = 1:32
 end
 
 xlim([1,17]);
-%ÉèÖÃÖĞ¼ä¼ä¸ôµÄ¿Ì¶È£¬ĞŞ¸Ä1¼´¿É
+%è®¾ç½®ä¸­é—´é—´éš”çš„åˆ»åº¦ï¼Œä¿®æ”¹1å³å¯
 set( gca, 'xtick', [1:1:17]);
 
 xlabel('Number of latent factors');
