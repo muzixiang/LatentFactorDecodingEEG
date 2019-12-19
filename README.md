@@ -1,6 +1,6 @@
 # LatentFactorDecodingEEG
 
-These codes are shared with the publication of the <Latent Factor Decoding of Multi-channel EEG for Emotion Recognition through AE-like Neural Networks>.
+These codes are shared with the publication of the "Latent Factor Decoding of Multi-channel EEG for Emotion Recognition through AE-like Neural Networks".
 
 0. The file named 'data_normalization_zscore' is used for preprocessing the multichannel EEGs.
 
